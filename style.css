@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Martian+Mono:wght@100..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+* {
+    margin:0px;
+    padding:0px;    
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+    background-color: #f4bba478;
+
+}
+
+.head {
+    height: 10%;
+    max-width: 100%;
+    background-color: #f4f2e899;
+    margin:0 auto;
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head-title{
+    font-size:2.5em;
+    color:#393781;
+}
+
+.head-menu{
+    margin:auto 0;
+}
+
+
+
+.head-menu a {
+    color:#09092d;
+    margin-left:16px;
+    font-size:2em;
+    text-decoration: none;
+}
+
+.main-content {
+    margin:0px auto;
+    padding:1%;
+    max-width: 90%;
+    min-height: 500px;
+    background-color: #f2f1ed
+    
+}
+
+.footer {
+    height:10%;
+    max-width:90%;
+    background-color:#f4f2e899;
+    margin:0px auto;
+    padding:1%;
+    color:#454b4b;
+
+}
+
+.footer-content {
+    
+    max-height: 100px;
+    max-width: fit-content;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+    
+}
+
+.footer-content a {
+    text-decoration: none;
+    color:#09092d;
+}
+
+
+.main-content p {
+    font-size: 1.4em;
+}
+
+
+.footer-copyright {
+    margin-top:10px;
+    font-size:0.7em;
+    text-align: center;
+}
+
+.main p {
+    text-indent: 30px
+}
